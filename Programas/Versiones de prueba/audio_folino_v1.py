@@ -16,11 +16,15 @@ import os
 #Valores a probar
 cantidad=2      # cantidad de veces a reproducir la señal
 
-N   =  128      # Número de muestras 
-#N   =  1024      # Número de muestras
-#fs  =  44100     # frecuencia de muestreo en Hz
-#fs  =  22050     # frecuencia de muestreo en Hz
-fs  =  11025     # frecuencia de muestreo en Hz
+N   =  128      # Número de muestras de la señal
+M   =  129      # Número de muestras del kernel(filtro)
+                # Para la CIAA N+M-1 debe dar 2**n
+                # Ej: N+M-1=256
+
+#N   =  1024    # Número de muestras
+#fs  =  44100   # frecuencia de muestreo en Hz
+#fs  =  22050   # frecuencia de muestreo en Hz
+fs  =  11025    # frecuencia de muestreo en Hz
 ts  =  1/fs
 tiempo_tx=30    # tiempo en segundos de transmisón
 f   =  50       # frecuencia de la señal principal
