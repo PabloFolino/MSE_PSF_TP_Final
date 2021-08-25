@@ -1,0 +1,248 @@
+psf/TP_final/out/TP_final.elf:1a0005d0 00000044 t Board_LED_Init
+psf/TP_final/out/TP_final.elf:1a000614 00000040 t Board_TEC_Init
+psf/TP_final/out/TP_final.elf:1a000654 00000040 t Board_GPIO_Init
+psf/TP_final/out/TP_final.elf:1a000694 00000030 t Board_ADC_Init
+psf/TP_final/out/TP_final.elf:1a0006c4 00000038 t Board_SPI_Init
+psf/TP_final/out/TP_final.elf:1a0006fc 00000024 t Board_I2C_Init
+psf/TP_final/out/TP_final.elf:1a0026a0 00000008 t GpioButtons
+psf/TP_final/out/TP_final.elf:1a0026a8 0000000c t GpioLeds
+psf/TP_final/out/TP_final.elf:1a0026b4 00000012 t GpioPorts
+psf/TP_final/out/TP_final.elf:1a0026cc 00000004 t InitClkStates
+psf/TP_final/out/TP_final.elf:1a0026d0 00000074 t pinmuxing
+psf/TP_final/out/TP_final.elf:10000220 00000038 d i2c
+psf/TP_final/out/TP_final.elf:1a0008a8 0000002c t Chip_UART_GetIndex
+psf/TP_final/out/TP_final.elf:1a002744 00000008 t UART_BClock
+psf/TP_final/out/TP_final.elf:1a00274c 00000008 t UART_PClock
+psf/TP_final/out/TP_final.elf:1a000a44 00000014 t Chip_ADC_GetClockIndex
+psf/TP_final/out/TP_final.elf:1a000a58 00000032 t getClkDiv
+psf/TP_final/out/TP_final.elf:1a000c24 000000a0 t pll_calc_divs
+psf/TP_final/out/TP_final.elf:1a000cc4 0000010c t pll_get_frac
+psf/TP_final/out/TP_final.elf:1a000dd0 0000004c t Chip_Clock_FindBaseClock
+psf/TP_final/out/TP_final.elf:1a001044 00000022 t Chip_Clock_GetDivRate
+psf/TP_final/out/TP_final.elf:10000268 00000008 b audio_usb_pll_freq
+psf/TP_final/out/TP_final.elf:1a002760 0000006c t periph_to_base
+psf/TP_final/out/TP_final.elf:1a0027cc 00000048 t InitClkStates
+psf/TP_final/out/TP_final.elf:1a001340 00000014 t Chip_SSP_GetClockIndex
+psf/TP_final/out/TP_final.elf:1a001354 00000018 t Chip_SSP_GetPeriphClockIndex
+psf/TP_final/out/TP_final.elf:10000258 00000004 d ClockSpeed
+psf/TP_final/out/TP_final.elf:1a002814 00000048 t lpcUarts
+psf/TP_final/out/TP_final.elf:10000270 00000004 b callBackFuncParams
+psf/TP_final/out/TP_final.elf:10000278 00000008 b tickCounter
+psf/TP_final/out/TP_final.elf:10000280 00000004 b tickHookFunction
+psf/TP_final/out/TP_final.elf:1a0016f8 00000034 t gpioObtainPinInit
+psf/TP_final/out/TP_final.elf:10000284 00000004 b g_hUsb
+psf/TP_final/out/TP_final.elf:1a001cac t arm_bitreversal_32_0
+psf/TP_final/out/TP_final.elf:1a001d16 t arm_bitreversal_16_0
+psf/TP_final/out/TP_final.elf:1a00c7a8 t __init_array_end
+psf/TP_final/out/TP_final.elf:1a00c7a4 b __preinit_array_end
+psf/TP_final/out/TP_final.elf:1a00c7a4 t __init_array_start
+psf/TP_final/out/TP_final.elf:1a00c7a4 b __preinit_array_start
+psf/TP_final/out/TP_final.elf:1a000e68 0000001c T Chip_Clock_GetDividerSource
+psf/TP_final/out/TP_final.elf:1a009e0c 000000c0 T twiddleCoef_64_q15
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W TIMER2_IRQHandler
+psf/TP_final/out/TP_final.elf:1a00150a 0000001c T uartWriteByteArray
+psf/TP_final/out/TP_final.elf:1a000184 00000002 W DebugMon_Handler
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W RIT_IRQHandler
+psf/TP_final/out/TP_final.elf:1a000af0 00000016 T Chip_ADC_DeInit
+psf/TP_final/out/TP_final.elf:1a080000 A __top_MFlashA512
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W ADCHS_IRQHandler
+psf/TP_final/out/TP_final.elf:1a000114 T __section_table_start
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W FLASH_EEPROM_IRQHandler
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W I2C0_IRQHandler
+psf/TP_final/out/TP_final.elf:1a006ddc 00003000 T twiddleCoef_4096_q15
+psf/TP_final/out/TP_final.elf:1a000774 00000008 T __stdio_init
+psf/TP_final/out/TP_final.elf:1a00017a 00000002 W HardFault_Handler
+psf/TP_final/out/TP_final.elf:1a000000 A __vectors_start__
+psf/TP_final/out/TP_final.elf:1a000bb8 0000000c T Chip_ADC_SetResolution
+psf/TP_final/out/TP_final.elf:1a0015bc 0000002c T SysTick_Handler
+psf/TP_final/out/TP_final.elf:1a000928 00000040 T Chip_UART_SetBaud
+psf/TP_final/out/TP_final.elf:1a000540 00000002 W initialise_monitor_handles
+psf/TP_final/out/TP_final.elf:1a001b18 000000c6 T arm_cfft_radix4by2_inverse_q15
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W SDIO_IRQHandler
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W ATIMER_IRQHandler
+psf/TP_final/out/TP_final.elf:1a000186 00000002 W PendSV_Handler
+psf/TP_final/out/TP_final.elf:1a000178 00000002 W NMI_Handler
+psf/TP_final/out/TP_final.elf:1a00c7b0 R __exidx_end
+psf/TP_final/out/TP_final.elf:1a000150 T __data_section_table_end
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W I2C1_IRQHandler
+psf/TP_final/out/TP_final.elf:1a00c554 000001e0 T armBitRevIndexTable_fixed_256
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W UART1_IRQHandler
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W GPIO5_IRQHandler
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W CAN1_IRQHandler
+psf/TP_final/out/TP_final.elf:1a00295c 00000010 T arm_cfft_sR_q15_len128
+psf/TP_final/out/TP_final.elf:53ff734a A __valid_user_code_checksum
+psf/TP_final/out/TP_final.elf:1a001d5c 0000025a T arm_radix4_butterfly_q15
+psf/TP_final/out/TP_final.elf:1a00c7b0 R _etext
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W USB1_IRQHandler
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W I2S0_IRQHandler
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W TIMER3_IRQHandler
+psf/TP_final/out/TP_final.elf:1a0010e6 0000000c T Chip_Clock_GetBaseClocktHz
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W UART0_IRQHandler
+psf/TP_final/out/TP_final.elf:1a0029bc 00000010 T arm_cfft_sR_q15_len16
+psf/TP_final/out/TP_final.elf:1a0001a8 00000012 T bss_init
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W SGPIO_IRQHandler
+psf/TP_final/out/TP_final.elf:1a001d06 T arm_bitreversal_16
+psf/TP_final/out/TP_final.elf:1a002340 T __aeabi_uldivmod
+psf/TP_final/out/TP_final.elf:10000290 ? _noinit
+psf/TP_final/out/TP_final.elf:10000288 00000004 B SystemCoreClock
+psf/TP_final/out/TP_final.elf:1a0008d4 00000054 T Chip_UART_Init
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W ADC0_IRQHandler
+psf/TP_final/out/TP_final.elf:1a000a98 00000018 T readAdcVal
+psf/TP_final/out/TP_final.elf:1a000180 00000002 W UsageFault_Handler
+psf/TP_final/out/TP_final.elf:1a001198 0000004c T Chip_Clock_GetRate
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W GPIO6_IRQHandler
+psf/TP_final/out/TP_final.elf:1a0007b4 0000006c T Board_SetupClocking
+psf/TP_final/out/TP_final.elf:20008000 A __top_RamAHB32
+psf/TP_final/out/TP_final.elf:1a002370 000002d0 T __udivmoddi4
+psf/TP_final/out/TP_final.elf:1a00269c 00000004 T ExtRateIn
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W IntDefaultHandler
+psf/TP_final/out/TP_final.elf:1a000300 T __CRP_WORD_END__
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W GPIO1_IRQHandler
+psf/TP_final/out/TP_final.elf:1a00294c 00000010 T arm_cfft_sR_q15_len256
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W SSP0_IRQHandler
+psf/TP_final/out/TP_final.elf:1a00c7a8 R __exidx_start
+psf/TP_final/out/TP_final.elf:1a003a3c 00001f80 T armBitRevIndexTable_fixed_4096
+psf/TP_final/out/TP_final.elf:1a0002fc 00000004 T CRP_WORD
+psf/TP_final/out/TP_final.elf:1a000a8a 0000000e T setStartMode
+psf/TP_final/out/TP_final.elf:10000000 00000202 D HAbs
+psf/TP_final/out/TP_final.elf:1a002644 00000048 T __libc_init_array
+psf/TP_final/out/TP_final.elf:1a0015e8 000000b8 T adcInit
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W ADC1_IRQHandler
+psf/TP_final/out/TP_final.elf:1a000744 00000030 T Board_Init
+psf/TP_final/out/TP_final.elf:1a0005ce 00000002 W _init
+psf/TP_final/out/TP_final.elf:1a001fb8 0000025a T arm_radix4_butterfly_inverse_q15
+psf/TP_final/out/TP_final.elf:1a000114 T __data_section_table
+psf/TP_final/out/TP_final.elf:1a00bfcc 000003c0 T armBitRevIndexTable_fixed_512
+psf/TP_final/out/TP_final.elf:1a002294 000000aa T arm_mult_q15
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W RTC_IRQHandler
+psf/TP_final/out/TP_final.elf:10000290 B _ebss
+psf/TP_final/out/TP_final.elf:1a000bc4 0000002a T Chip_ADC_EnableChannel
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W TIMER0_IRQHandler
+psf/TP_final/out/TP_final.elf:1a000544 00000088 T Reset_Handler
+psf/TP_final/out/TP_final.elf:1a001540 0000007c T tickInit
+psf/TP_final/out/TP_final.elf:20010000 A __top_RamAHB_ETB16
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W SPI_IRQHandler
+psf/TP_final/out/TP_final.elf:1a000870 00000038 T Chip_I2C_SetClockRate
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W LCD_IRQHandler
+psf/TP_final/out/TP_final.elf:1a000e1c 0000004c T Chip_Clock_EnableCrystal
+psf/TP_final/out/TP_final.elf:1a000b06 00000008 T Chip_ADC_ReadValue
+psf/TP_final/out/TP_final.elf:1a0029ac 00000010 T arm_cfft_sR_q15_len4096
+psf/TP_final/out/TP_final.elf:10008000 A __top_RamLoc32
+psf/TP_final/out/TP_final.elf:1a00018a 0000001e T data_init
+psf/TP_final/out/TP_final.elf:1a000b66 00000020 T Chip_ADC_SetStartMode
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W TIMER1_IRQHandler
+psf/TP_final/out/TP_final.elf:1a00084c 00000024 T Chip_I2C_Init
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W UART2_IRQHandler
+psf/TP_final/out/TP_final.elf:1a000fd8 0000006c T Chip_Clock_GetMainPLLHz
+psf/TP_final/out/TP_final.elf:1a002864 000000e6 T gpioPinsInit
+psf/TP_final/out/TP_final.elf:1a0014f0 0000001a T uartWriteByte
+psf/TP_final/out/TP_final.elf:1a00136c 00000012 T Chip_SSP_SetClockRate
+psf/TP_final/out/TP_final.elf:1a0019aa 00000016 T gpioToggle
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W GPIO2_IRQHandler
+psf/TP_final/out/TP_final.elf:1a0016a0 00000058 T adcRead
+psf/TP_final/out/TP_final.elf:1a0010c0 00000026 T Chip_Clock_GetBaseClock
+psf/TP_final/out/TP_final.elf:10000268 B _bss
+psf/TP_final/out/TP_final.elf:1a000b0e 00000036 T Chip_ADC_ReadStatus
+psf/TP_final/out/TP_final.elf:1a000b86 00000032 T Chip_ADC_SetSampleRate
+psf/TP_final/out/TP_final.elf:1a00297c 00000010 T arm_cfft_sR_q15_len1024
+psf/TP_final/out/TP_final.elf:1a00c734 00000070 T armBitRevIndexTable_fixed_64
+psf/TP_final/out/TP_final.elf:1a00298c 00000010 T arm_cfft_sR_q15_len64
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W I2S1_IRQHandler
+psf/TP_final/out/TP_final.elf:1a00137e 0000003e T Chip_SSP_SetBitRate
+psf/TP_final/out/TP_final.elf:1a00133c 00000002 T Chip_GPIO_Init
+psf/TP_final/out/TP_final.elf:1a00c3a4 00000180 T twiddleCoef_128_q15
+psf/TP_final/out/TP_final.elf:1a0026c8 00000004 T OscRateIn
+psf/TP_final/out/TP_final.elf:1a001474 0000007c T uartInit
+psf/TP_final/out/TP_final.elf:10000290 ? _end_noinit
+psf/TP_final/out/TP_final.elf:10008000 A _vStackTop
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W SSP1_IRQHandler
+psf/TP_final/out/TP_final.elf:1a000178 T __bss_section_table_end
+psf/TP_final/out/TP_final.elf:1a00c524 00000030 T armBitRevIndexTable_fixed_32
+psf/TP_final/out/TP_final.elf:1a002214 00000080 T arm_cmplx_mag_squared_q15
+psf/TP_final/out/TP_final.elf:1a00172c 000001ac T gpioInit
+psf/TP_final/out/TP_final.elf:1a002640 00000002 W __aeabi_ldiv0
+psf/TP_final/out/TP_final.elf:1a0019c0 0000001c T USB0_IRQHandler
+psf/TP_final/out/TP_final.elf:1a001164 00000034 T Chip_Clock_Disable
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W GPIO3_IRQHandler
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W SCT_IRQHandler
+psf/TP_final/out/TP_final.elf:1a000e84 0000001c T Chip_Clock_GetDividerDivisor
+psf/TP_final/out/TP_final.elf:1a0002fc T __CRP_WORD_START__
+psf/TP_final/out/TP_final.elf:1a00268c 00000010 T memset
+psf/TP_final/out/TP_final.elf:1a00017c 00000002 W MemManage_Handler
+psf/TP_final/out/TP_final.elf:1a0003c4 0000017c T main
+psf/TP_final/out/TP_final.elf:1a006d7c 00000060 T twiddleCoef_32_q15
+psf/TP_final/out/TP_final.elf:1a009ddc 00000030 T twiddleCoef_16_q15
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W WDT_IRQHandler
+psf/TP_final/out/TP_final.elf:2000c000 A __top_RamAHB16
+psf/TP_final/out/TP_final.elf:1008a000 A __top_RamLoc40
+psf/TP_final/out/TP_final.elf:1a000182 00000002 W SVC_Handler
+psf/TP_final/out/TP_final.elf:1a001448 00000018 T uartTxReady
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W GPIO7_IRQHandler
+psf/TP_final/out/TP_final.elf:1a0010f4 0000003c T Chip_Clock_EnableOpts
+psf/TP_final/out/TP_final.elf:1a000ea0 000000b8 T Chip_Clock_GetClockInputHz
+psf/TP_final/out/TP_final.elf:1a001c9c T arm_bitreversal_32
+psf/TP_final/out/TP_final.elf:1a000f58 00000080 T Chip_Clock_CalcMainPLLValue
+psf/TP_final/out/TP_final.elf:1a0013f4 00000038 T SystemInit
+psf/TP_final/out/TP_final.elf:1a00617c 00000c00 T twiddleCoef_1024_q15
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W SPIFI_IRQHandler
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W QEI_IRQHandler
+psf/TP_final/out/TP_final.elf:1a000150 T __bss_section_table
+psf/TP_final/out/TP_final.elf:1a0018d8 0000006a T gpioWrite
+psf/TP_final/out/TP_final.elf:1a0005cc 00000002 W _fini
+psf/TP_final/out/TP_final.elf:1a000ab0 00000040 T Chip_ADC_Init
+psf/TP_final/out/TP_final.elf:1000028c 00000004 B g_pUsbApi
+psf/TP_final/out/TP_final.elf:1a00077c 00000038 T Board_SetupMuxing
+psf/TP_final/out/TP_final.elf:1a000300 000000c4 T init_cfft_instance
+psf/TP_final/out/TP_final.elf:1a000968 000000dc T Chip_UART_SetBaudFDR
+psf/TP_final/out/TP_final.elf:10000260 00000008 D tickRateMS
+psf/TP_final/out/TP_final.elf:1a000bee 00000022 T Chip_ADC_SetBurstCmd
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W ETH_IRQHandler
+psf/TP_final/out/TP_final.elf:10000000 ? _end_uninit_RESERVED
+psf/TP_final/out/TP_final.elf:1a001a50 000000c6 T arm_cfft_radix4by2_q15
+psf/TP_final/out/TP_final.elf:1a001460 00000014 T uartTxWrite
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W CAN0_IRQHandler
+psf/TP_final/out/TP_final.elf:10000000 D _data
+psf/TP_final/out/TP_final.elf:10000204 0000001c D header
+psf/TP_final/out/TP_final.elf:10000290 B _pvHeapStart
+psf/TP_final/out/TP_final.elf:1a000178 T __section_table_end
+psf/TP_final/out/TP_final.elf:1a0013bc 00000038 T Chip_SSP_Init
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W GINT0_IRQHandler
+psf/TP_final/out/TP_final.elf:1a00296c 00000010 T arm_cfft_sR_q15_len512
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W DAC_IRQHandler
+psf/TP_final/out/TP_final.elf:1a000720 00000024 T Board_Debug_Init
+psf/TP_final/out/TP_final.elf:1a000b44 00000022 T Chip_ADC_Int_SetChannelCmd
+psf/TP_final/out/TP_final.elf:10000268 D _edata
+psf/TP_final/out/TP_final.elf:1a00082c 00000020 T Chip_I2C_EventHandler
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W M0SUB_IRQHandler
+psf/TP_final/out/TP_final.elf:1a00b6cc 00000300 T twiddleCoef_256_q15
+psf/TP_final/out/TP_final.elf:1a0011e4 00000158 T Chip_SetupCoreClock
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W GPIO0_IRQHandler
+psf/TP_final/out/TP_final.elf:1a000000 00000040 T g_pfnVectors
+psf/TP_final/out/TP_final.elf:1a0029dc 000000e0 T armBitRevIndexTable_fixed_128
+psf/TP_final/out/TP_final.elf:1a000c10 00000014 T SystemCoreClockUpdate
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W DMA_IRQHandler
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W EVRT_IRQHandler
+psf/TP_final/out/TP_final.elf:1b080000 A __top_MFlashB512
+psf/TP_final/out/TP_final.elf:1a002640 00000002 W __aeabi_idiv0
+psf/TP_final/out/TP_final.elf:1a00017e 00000002 W BusFault_Handler
+psf/TP_final/out/TP_final.elf:1a0029cc 00000010 T arm_cfft_sR_q15_len32
+psf/TP_final/out/TP_final.elf:1a001130 00000034 T Chip_Clock_Enable
+psf/TP_final/out/TP_final.elf:1a00299c 00000010 T arm_cfft_sR_q15_len2048
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W UART3_IRQHandler
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W MCPWM_IRQHandler
+psf/TP_final/out/TP_final.elf:1a001be0 000000bc T arm_cfft_q15
+psf/TP_final/out/TP_final.elf:1a00c38c 00000018 T armBitRevIndexTable_fixed_16
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W M0APP_IRQHandler
+psf/TP_final/out/TP_final.elf:1a001942 00000068 T gpioRead
+psf/TP_final/out/TP_final.elf:1a002abc 00000f80 T armBitRevIndexTable_fixed_2048
+psf/TP_final/out/TP_final.elf:1a0019dc 00000074 T boardInit
+psf/TP_final/out/TP_final.elf:1a009ecc 00001800 T twiddleCoef_2048_q15
+psf/TP_final/out/TP_final.elf:1a000040 000000d4 T g_pfnVendorVectors
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W GINT1_IRQHandler
+psf/TP_final/out/TP_final.elf:1a00b9cc 00000600 T twiddleCoef_512_q15
+psf/TP_final/out/TP_final.elf:1a0059bc 000007c0 T armBitRevIndexTable_fixed_1024
+psf/TP_final/out/TP_final.elf:1a001528 00000018 T tickPowerSet
+psf/TP_final/out/TP_final.elf:1a001068 00000058 T Chip_Clock_SetBaseClock
+psf/TP_final/out/TP_final.elf:1a00142c 0000001c T cyclesCounterInit
+psf/TP_final/out/TP_final.elf:1a0001ba 00000002 W GPIO4_IRQHandler
+psf/TP_final/out/TP_final.elf:1a000820 0000000c T Board_SystemInit
