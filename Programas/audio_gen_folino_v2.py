@@ -265,8 +265,7 @@ def valores():
 # Inicio del programa principal
 #================================================================
 menu="""
-Programas de la transformada Discreta de Fourier
-elija una opción:
+Programa para Tx señales a la EDU-CIAA por placa de sonido:
 
 [1] Señal de red senoidal 
 [2] Señal de ruido senoidal

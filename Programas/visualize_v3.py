@@ -10,7 +10,7 @@ import serial
 FFT_MAX_DEFAULT=0.1
 Vp_MAX=1.65
 
-STREAM_FILE=("/dev/ttyUSB1","serial")
+STREAM_FILE=("/dev/ttyUSB2","serial")
 #STREAM_FILE=("log.bin","file")
 
 header = { "pre": b"*header*", "id": 0, "N": 256, "fs": 10000, "cutFrec":0,"cutFrec2":0,"ruido":0,"M":10,"pos":b"end*" }
